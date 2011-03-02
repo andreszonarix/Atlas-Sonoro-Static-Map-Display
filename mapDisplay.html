@@ -5,6 +5,11 @@
   <!-- Framework CSS -->
     <link rel="stylesheet" href="./css/blueprint/screen.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="./css/blueprint/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./css/thickbox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/mapper.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/thickbox.js"></script>
+    
     <!--[if lt IE 8]>
     	<link rel="stylesheet" href="./css/blueprint/ie.css" type="text/css" media="screen, projection" />
     <![endif]-->
@@ -17,11 +22,11 @@
 <title>Amazonia - Ecuador Sonoro</title>
 </head>
 
-<body class="background-amazonia">
+<body class="background">
   <div class="container">
       <div id="Main" class="span-24 last">
            <div id="Header" class="span-24 last backgroundheader-amazonia">       
-            <a href="index.html">Home</a><div class="prepend-top prepend-7"><img  src="images/menu-rectangle-siekopai.png" width="187" height="187" /></div></div>
+            <a href="index.html">Home</a></div>
              
            <div id="LeftCol" class="span-6">
                <div id="Search" class="searchplaceholder span-6"></div>
@@ -38,42 +43,30 @@
            </div>
            
            <div id="MiddleCol" class="span-18 last">
-           <div style="margin-left: -10px; margin-top: -73px;"></div>
-           <div id="Navigation2" class="span-18 last">        
-            <a href="#"><div id="Detalles" class="detailelement1"></div></a>
-            <a href="#"><div id="Musica" class="detailelement2"></div></a>
-            <a href="#"><div id="Instrumentos" class="detailelement3"></div></a>
-            <a href="#"><div id="Galeria" class="detailelement4"></div></a>
+           <div style="margin-left: -10px; margin-top: 0px;"></div>
+           <div>
+           <a href="images/mapa-tsachila_950px-150dpi.png"><map name="tsachilas"><area shape="poly" class="noborder icolor00ff00 thickbox" alt="" title="" coords="210,261,212,258,216,258,220,259,227,258,230,252,239,250,242,249,243,247,244,244,244,241,242,240,239,238,234,238,231,237,231,237,230,235,230,231,231,228,234,225,238,221,243,219,249,218,253,218,255,216,259,215,261,213,260,211,254,209,250,209,239,209,232,209,228,210,222,210,220,210,217,212,215,212,213,216,211,220,210,222,209,224,208,225,208,227,206,229,205,229,203,229,203,229,202,231,202,233,202,235,202,238,201,241,200,242,198,245,196,247,195,248,196,249,197,250,197,253,196,254,196,254,195,256,196,258,196,258,197,258,199,258,202,258,205,256,207,256,209,256,210,258,209,259,209,260,210,261" href="images/mapa-tsachila_950px-150dpi.png"  rel="tsachilas" alt="Hello" target="amazonia.html" /><!-- Created by Online Image Map Editor (http://www.maschek.hu/imagemap/index) --></map></a>
+           
+           <img src="images/mapa-general-corregido_710px-72dpi.png" class="mapper" usemap="#tsachilas" alt="Ecuador">
+           
+           
+           <script type="text/javascript">
+			$(function() {
+				// Use this example, or...
+				$('a[@rel*=lightbox]').lightBox(); // Select all links that contains lightbox in the attribute rel
+				// This, or...
+				$('#gallery a').lightBox(); // Select all links in object with gallery ID
+				// This, or...
+				$('a.lightbox').lightBox(); // Select all links with lightbox class
+				// This, or...
+				$('a').lightBox(); // Select all links in the page
+				// ... The possibility are many. Use your creative or choose one in the examples above
+			});
+			</script>
+           
            </div>
-            <div style="color: #72210D; background-color: #e4a777; width: 691px; margin-left:5px; margin-top: 0;" class="span-13 prepend-top"><div style="margin: 20px";><p><br /><br />Los Siekopai (gente de colores o gente multicolor) como se autodenominan en Ecuador; o Airo-Pai en Perú, conforman un pueblo binacional ancestral amazónico perteneciente al complejo lingüístico-cultural Tukano Occidental del cual se desprende su lengua: el Paicoca, misma que fue considerada dentro de las principales seis que se hablaban en América durante la época colonial.</p>
-
-<p style="margin-top: -15px;">La autodenominación Siekopai se relaciona directamente con el río Siekoya, lugar sagrado, donde en tiempos míticos los ma'ñokopose (jóvenes multicolores del mundo superior) descendieron y legaron un sinnúmero de conocimientos culturales que aún se encuentran presentes gracias a la rica tradición oral y los saberes toponímicos de la nacionalidad Siekopai.</p>
-
-<p style="margin-top: -15px;">Desde mucho antes de la invasión española, las sociedades Tukano Occidentales se ubicaron entre los ríos Napo y Putumayo, abarcando la cuenca media y baja del río Aguarico, hasta su desembocadura en el Napo y desde éste hasta la unión con el río Wajoya.</p>
-
-<p style="margin-top: -15px;">Una vez instaurado el gobierno español, los Siekopai quedaron bajo las órdenes religiosas jesuita y franciscana quienes les denominaron encabellados, por sus largas y adornadas cabelleras, término con el cual fueron conocidos en los primeros siglos de ocupación europea.</p>
-
-<p style="margin-top: -15px;">En el siglo XVII los franciscanos fundan las misiones San Diego de Alcalá de los Encabellados y San Antonio de los Encabellados,  que fracasan en intentos de evangelización y adoctrinamiento debido a una importante sublevación de los encabellados, reprimida a sangre y fuego por parte de tropas portuguesas arribadas desde Pará, por pedido expreso de los franciscanos.</p>
-
-<p style="margin-top: -15px;">A partir de 1720 los jesuitas fundan alrededor de 20 misiones en territorio Siekopai igualmente fallidas dado que el proyecto misional  evangelizador chocaba con los conocimientos religiosos, y la cosmovisión, así como con las formas socioculturales y políticas de los Siekopai, durante esta época las enfermedades introducidas provocaron grandes epidemias que diezmaron  a la población.</p>
-
-<p style="margin-top: -15px;">En la época republicana con la explotación cauchera en la región amazónica y la nueva demarcación territorial entre Ecuador y Perú, se inician despojos de territorio ancestral de la nacionalidad Siekopai poniendo en serio riesgo su sobrevivencia e integridad cultural.</p>
-
-<p style="margin-top: -15px;">En la actualidad los Siekopai viven en 12 comunidades, 8 en Perú y 4 en Ecuador. Su población alcanza los 1290 habitantes, de los cuales 800 se asientan en la Amazonía peruana y 490 en la ecuatoriana.</p>
-
-<p style="margin-top: -15px;">Para los Siekopai el universo se divide en varios niveles: la selva, el suelo, el subsuelo, el cielo, el agua, los animales, el aire o viento y los espíritus ubicados en tres estratos:</p>
-
-<ul>
-<li>MA'TËMO (Mundo superior)</li>
-<li>YEJÁ (La Tierra)</li>
-<li>YEJA WË'EWË TE'TE (Inframundo)</li>
-</ul>
-
-<p>En cada estrato habitan distintos seres, desde deidades mitológicas hasta descendientes de la humanidad primigenia. Su principal deidad Ñañë, creó el cosmos actual y sus habitantes.</p>
-
-<p style="margin-top: -15px;">Los Siekopai poseen una rica mitología, que fundamenta la aplicación de diversos conocimientos en la cotidianidad y momentos ritualísticos. Desde dichos conocimientos identifican alrededor de 12 formaciones vegetales y sus saberes etnobotánicos dan cuenta de 760 especies agrupadas en 118 familias, ubicándolos como la nacionalidad con mayor conocimiento etnobotánico de la Amazonía ecuatoriana.</p></div>
-           </div>
-      </div>   
+           
+            </div>
       </div>
   </div>
 </body>
